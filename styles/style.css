@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+.header {
+    background-image: url('../image/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+
+}
+
+/* navber style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+    padding: 30px 0;
+}
+
+.text-primary {
+    color: #F15B22;
+}
+
+.navber ul {
+    display: flex;
+    align-items: center;
+}
+
+.navber ul li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.navber ul li a {
+    text-decoration: none;
+}
+
+/* banner-style */
+.banner-content {
+    display: inline-block;
+    text-align: right;
+    margin: 100px 100px;
+
+
+}
+
+.banner-content h2 {
+    width: 200px;
+    line-height: 30px;
+    margin-bottom: 15px;
+
+}
+
+.banner-content p {
+    width: 200px;
+    line-height: 15px;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.banner-content .btn {
+    background-color: #F15B22;
+    border: none;
+    color: white;
+    padding: 10px 13px;
+    border-radius: 2px;
+}
+
+/* about me */
+.person-img {
+    height: 550px;
+    /* width: 400px; */
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    margin: 0 100px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+
+.about-title {
+    font: 30px;
+    color: #151414;
+    width: 250px;
+    margin: 20px 20px;
+}
+
+.about-disc {
+    color: #444343;
+    width: 350px;
+    font-size: 16px;
+    margin: 20px 20px;
+}
+
+.list {
+    list-style: none;
+    margin: 20px 20px;
+}
+
+span {
+    color: #16D887;
+    font: bold;
+}
+
+/* my plan section */
+.plan-section {
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+.plans-container {
+    display: flex;
+    gap: 24px;
+    margin-left: 200px;
+
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+
+.plan-description {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* main banner */
+.main-banner {
+    padding: 40px 0;
+    margin: 100px 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../image/watch.png);
+   
+    
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    width: 459px;
+    height: 94px;
+    margin: 10px 30px;
+
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 10px 30px;
+    color: #F15B22;
+    background-color: #FFFFFF ;
+}

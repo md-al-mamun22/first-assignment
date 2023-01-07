@@ -4,82 +4,59 @@
     font-family: 'Work Sans', sans-serif;
 
 }
-
-.header {
-    background-image: url('../image/banner2.png');
-    background-repeat: no-repeat;
+/* header style */
+.banner{
+    background-image: url(../image/banner2.png);
     background-size: cover;
-    margin-bottom: 50px;
-
+    background-repeat: no-repeat;
 }
-
-/* navber style */
-nav {
+.head{
     display: flex;
-    justify-content: space-between;
-    margin: 0 100px;
-    padding: 30px 0;
+    justify-content: space-around;
+   height: 600px;
 }
-
-.text-primary {
-    color: #F15B22;
+.logo{
+    margin-top: 30px;
+    display: none;
 }
-
-.navber ul {
-    display: flex;
-    align-items: center;
-}
-
-.navber ul li {
-    list-style: none;
-    margin: 0 20px;
-}
-
-.navber ul li a {
-    text-decoration: none;
-}
-
-/* banner-style */
-.banner-content {
-    display: inline-block;
+.header{
     text-align: right;
-    margin: 100px 100px;
-
-
-}
-
-.banner-content h2 {
     width: 200px;
-    line-height: 30px;
-    margin-bottom: 15px;
-
+    margin-top: 200px;
+    margin-left: 200px;
+   
 }
-
-.banner-content p {
-    width: 200px;
-    line-height: 15px;
-    font-size: 10px;
+.header-title{
     margin-bottom: 20px;
+  width: 300px;
 }
 
-.banner-content .btn {
-    background-color: #F15B22;
-    border: none;
-    color: white;
-    padding: 10px 13px;
-    border-radius: 2px;
+.header-des{
+    margin-bottom: 20px;
+    width: 300px;
 }
+.butoon{
+    background-color: #F15B22;
+    color: #F8F8F8;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px; 
+    margin-left: 200px;
+    font-weight: 400px;
+   font-size: 20px;
+}
+
 
 /* about me */
 .person-img {
     height: 550px;
-    /* width: 400px; */
+
 }
 
 .about-me {
     display: flex;
     align-items: center;
-    margin: 0 100px;
+    margin: 50px 100px;
     margin-bottom: 100px;
     justify-content: space-around;
 }
@@ -109,29 +86,39 @@ span {
 }
 
 /* my plan section */
-.plan-section {
-    margin-top: 100px;
-    text-align: center;
 
-}
-
-.plans-container {
+.my-plan-container{
+    max-width: 1350px;
+    margin: 0 auto;
     display: flex;
-    gap: 24px;
-    margin-left: 200px;
-
+    justify-content: space-around;
 }
-
-.plan-title {
-    font-weight: 700;
+.my-plan-title{
+   text-align: center;
+   margin-bottom: 40px;
+   font-weight: 700px;
+   font-size: 40px;
+}
+.plan-img{
+  padding-left: 30px;
+  justify-content: space-around;
+}
+.plan-img-1{
+    padding-left: 80px;
+}
+.plan-title{
+    font-weight: 700px;
     font-size: 30px;
-    margin-bottom: 20px;
-    align-items: center;
+    
 }
-
-.plan-description {
-    font-weight: 500;
-    font-size: 25px;
+.plan-description{
+    font-weight: 300px;
+    font-size: 15px;
+    text-align: center;
+}
+.my-plan h2{
+    text-align: center;
+    margin:20px 0;
 }
 
 /* main banner */
@@ -140,9 +127,9 @@ span {
     margin: 100px 100px;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../image/watch.png);
-   
-    
+    background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(../image/watch.png);
+
+
 }
 
 .banner-title {
@@ -162,5 +149,71 @@ span {
     padding: 10px 15px;
     margin: 10px 30px;
     color: #F15B22;
-    background-color: #FFFFFF ;
+    background-color: #F8F8F8;
+}
+
+/* footer styles */
+.footer {
+    display: flex;
+    gap: 100px;
+    text-align: left;
+    background-color: #151414;
+}
+.footer-bg{
+    Weight: 400;
+Size: 16px;
+Line-height: 26px;
+}
+.future{
+    margin-bottom: 15px;
+}
+.future-description{
+    margin-bottom: 10px;
+}
+.future-info{
+    margin-bottom: 10px;
+}
+.future-info{
+    font-size: 10px;
+    font-weight: 300px;
+
+}
+
+.footer-bg {
+    margin: 0 100px;
+    color: #F8F8F8;
+    padding: 70px 0;
+}
+
+.button {
+    color: #F15B22;
+    background-color: #F8F8F8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 15px 0;
+}
+
+.sub {
+    font-weight: 60;
+    Width: 123px;
+    Height: 29px;
+    Size: 25px;
+    font-weight: 600px;
+}
+
+.email {
+    padding: 10px 10px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: 1px solid #F8F8F8;
+    background-color: #151414;
+    font-weight: 400;
+    font-size: 18px;
+}
+.footer h4{
+    margin-bottom: 15px;
+}
+.footer-bg a{
+    text-decoration: none;
 }
